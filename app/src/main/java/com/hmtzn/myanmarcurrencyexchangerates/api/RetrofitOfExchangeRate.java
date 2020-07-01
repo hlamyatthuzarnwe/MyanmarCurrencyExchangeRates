@@ -49,10 +49,7 @@ public class RetrofitOfExchangeRate {
         return getApiInterface.getLatest();
     }
 
-    public interface ApiInterface{
-        @GET("latest")
-        Call<RetrofitOfExchangeRate> getLatest ();
-    }
+
 
 
     private static class BuildConfig {

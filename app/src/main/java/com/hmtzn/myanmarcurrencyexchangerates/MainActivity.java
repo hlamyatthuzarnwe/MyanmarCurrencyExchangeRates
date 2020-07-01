@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
         progressDialog.show();
         exchangeRateAdapter.clear();
 
-        Call<RetrofitOfExchangeRate> exchangeRateCall =apiInterface.getLatest();
+        Call<RetrofitOfExchangeRate> exchangeRateCall = apiInterface.getLatest();
         exchangeRateCall.enqueue(new Callback<RetrofitOfExchangeRate>() {
             @Override
             public void onResponse(Call<RetrofitOfExchangeRate> call, Response<RetrofitOfExchangeRate> response) {
