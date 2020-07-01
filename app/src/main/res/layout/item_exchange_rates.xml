@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="0dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/tv_info"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="@dimen/txt_size_large"
+                    tools:text="info" />
+
+                <TextView
+                    android:id="@+id/tv_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="@dimen/txt_size_large"
+                    tools:text="description" />
+
+                <TextView
+                    android:id="@+id/tv_timestamp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="@dimen/txt_size_large"
+                    tools:text="timestamp" />
+
+                <TextView
+                    android:id="@+id/tv_cHF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="cHF" />
+
+                <TextView
+                    android:id="@+id/tv_sAR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="sAR" />
+
+                <TextView
+                    android:id="@+id/tv_zAR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="zAR" />
+
+                <TextView
+                    android:id="@+id/tv_iNR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="iNR" />
+
+                <TextView
+                    android:id="@+id/tv_vND"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="vND" />
+
+                <TextView
+                    android:id="@+id/tv_cNY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="cNY" />
+
+                <TextView
+                    android:id="@+id/tv_tHB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="tHB" />
+
+                <TextView
+                    android:id="@+id/tv_aUD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="aUD" />
+
+                <TextView
+                    android:id="@+id/tv_iLS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="iLS" />
+
+                <TextView
+                    android:id="@+id/tv_nPR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="nPR" />
+
+                <TextView
+                    android:id="@+id/tv_kRW"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="kRW" />
+
+                <TextView
+                    android:id="@+id/tv_jPY"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="jPY" />
+
+                <TextView
+                    android:id="@+id/tv_bDT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="bDT" />
+
+                <TextView
+                    android:id="@+id/tv_kHR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="kHR" />
+
+                <TextView
+                    android:id="@+id/tv_gBP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="gBP" />
+
+                <TextView
+                    android:id="@+id/tv_iDR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="iDR" />
+
+                <TextView
+                    android:id="@+id/tv_kWD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="kWD" />
+
+                <TextView
+                    android:id="@+id/tv_pHP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="pHP" />
+
+                <TextView
+                    android:id="@+id/tv_rUB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="rUB" />
+
+                <TextView
+                    android:id="@+id/tv_hKD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="hKD" />
+
+                <TextView
+                    android:id="@+id/tv_rSD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="rSD" />
+
+                <TextView
+                    android:id="@+id/tv_eUR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="eUR" />
+
+                <TextView
+                    android:id="@+id/tv_dKK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="dKK" />
+
+                <TextView
+                    android:id="@+id/tv_uSD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="uSD" />
+
+                <TextView
+                    android:id="@+id/tv_mYR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="mYR" />
+
+                <TextView
+                    android:id="@+id/tv_cAD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="cAD" />
+
+                <TextView
+                    android:id="@+id/tv_nOK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="nOK" />
+
+                <TextView
+                    android:id="@+id/tv_eGP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="eGP" />
+
+                <TextView
+                    android:id="@+id/tv_sGD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="sGD" />
+
+                <TextView
+                    android:id="@+id/tv_lKR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="lKR" />
+
+                <TextView
+                    android:id="@+id/tv_cZK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="cZK" />
+
+                <TextView
+                    android:id="@+id/tv_pKR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="pKR" />
+
+                <TextView
+                    android:id="@+id/tv_lAK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="lAK" />
+
+                <TextView
+                    android:id="@+id/tv_sEK"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="sEK" />
+
+                <TextView
+                    android:id="@+id/tv_kES"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="kES" />
+
+                <TextView
+                    android:id="@+id/tv_bND"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="bND" />
+
+                <TextView
+                    android:id="@+id/tv_nZD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="nZD" />
+
+                <TextView
+                    android:id="@+id/tv_bRL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    tools:text="bRL" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>
